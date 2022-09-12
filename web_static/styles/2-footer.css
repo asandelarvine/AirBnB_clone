@@ -1,9 +1,13 @@
-footer {
-    background-color: #00FF00; 
-    bottom: 0px;
-    display: grid;   
+/* footer style */
+footer{
+    background-color: #00FF00;
     height: 60px;
-    place-items: center; 
-    position: absolute; 
-    width: 100%;
+    width: 100%; 
+    bottom: 0; 
+    position: fixed; 
+    display: flex; 
+    justify-content: center;
+    line-height: 60px;
+
 }
+
